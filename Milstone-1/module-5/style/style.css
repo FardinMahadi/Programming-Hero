@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.parent {
+  font-family: monospace;
+  padding: 20px 0;
+  background-color: blanchedalmond;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.child {
+  border: 2px solid rgb(15, 158, 160);
+  border-radius: 5px;
+  background: rgb(178, 228, 229);
+  padding: 20px;
+  font-size: 18px;
+  margin: 10px 0;
+}
