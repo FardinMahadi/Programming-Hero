@@ -1,0 +1,137 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+/* font-family: "worK sans", sans serif; */
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "work sans", sans-serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+#hero {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+      180deg,
+      rgb(16, 16, 16) -19.5%,
+      rgba(16, 16, 16, 0) 100%
+    ),
+    url("../assets/hero-bg.png") center/ cover;
+}
+
+#hero > div {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+#hero div .p1 {
+  font-size: 32px;
+  opacity: 0.8;
+}
+
+#hero div h1 {
+  font-size: 48px;
+  margin-bottom: 1rem;
+}
+
+#hero div .p2 {
+  font-size: 18px;
+  margin-bottom: 0.5rem;
+  opacity: 0.7;
+}
+
+.btn {
+  padding: 0.8rem 1rem;
+  background: rgb(82, 195, 3);
+  border-radius: 8px;
+  border: none;
+}
+
+.btn:hover {
+  background: rgb(75, 177, 2);
+}
+
+.card-box {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-box > p {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.card-box > h1 {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 64px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.card-box .cards {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.card-box .cards .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 15rem;
+  margin: 1rem;
+}
+
+.card-box .cards .card .img {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+.card-box .cards .card .product-name {
+  margin: 1rem 0;
+  padding: 0.5rem;
+  border-radius: 8px;
+  background: rgba(82, 195, 3, 0.15);
+}
+
+.card-box .cards .card .Discount {
+  color: rgb(16, 16, 16);
+  font-family: Work Sans;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 47px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.card-box .cards .card .about {
+  color: rgb(16, 16, 16);
+  font-size: 12px;
+  font-weight: 500;
+}
